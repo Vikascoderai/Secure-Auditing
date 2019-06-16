@@ -1,0 +1,70 @@
+::-webkit-scrollbar
+{
+	width:7px;
+	height:7px;
+}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment
+{
+	display:block;
+	height:0;
+	background-color:transparent;
+}
+::-webkit-scrollbar-track-piece
+{
+	background-color:#000000;
+	-webkit-border-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+	background-color:blue;
+	-webkit-border-radius:8px;
+}
+::-webkit-scrollbar-thumb:horizontal
+{
+	background-color:#0000FF;
+	-webkit-border-radius:8px;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+	background-color:blue;
+}
+body
+{
+	padding-top:5px;
+	background-image: url("../Images/background.jpg");
+	
+}
+.c
+{
+	border:10px solid #351616;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
+#head
+{
+	color:#DFFAF9;
+	font-size:30px;
+}
+iframe 
+{
+		padding:50px;
+		
+	scrollbar-base-color: blue;
+	scrollbar-arrow-color: blue;
+	
+	
+  -moz-border-radius: 42px;
+  -webkit-border-radius: 42px; 
+  border-radius: 42px; 
+
+  -moz-box-shadow: 150px 50px 104px #000; 
+  -webkit-box-shadow: 150px 50px 104px #000; 
+  box-shadow: 150px 50px 104px #000; 
+
+  
+  
+}
+

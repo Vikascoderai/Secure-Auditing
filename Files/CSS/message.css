@@ -1,0 +1,43 @@
+
+.info, .success, .warning, .error, .validation 
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:30px;
+	padding-left:30px;
+	background-size:20px 20px;
+	background-repeat:no-repeat;
+	-moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+.info
+{
+	-moz-box-shadow: 30px 30px 30px #4DA3B5;
+	-webkit-box-shadow: 30px 30px 30px #4DA3B5;
+	color: black;
+	background-color: #66FFCC;
+	background-image: url(   '../Files/Images/info.png' );
+	font-weight: bold;
+}
+.success
+{
+	-moz-box-shadow:30px 30px 30px #4B8142;
+    -webkit-box-shadow:30px 30px 30px #4B8142;
+	color: pink;
+	background-color: white;
+	background-image:url('../Files/Images/success.png');
+}
+.warning 
+{
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../Files/Images/warning.png');
+}
+.error 
+{
+	-moz-box-shadow:30px 30px 30px #861B38;
+    -webkit-box-shadow:30px 30px 30px #861B38;
+	color: #D8000C;
+	background-color: #00CCFF;
+	background-image: url('../Files/Images/error.png');
+}

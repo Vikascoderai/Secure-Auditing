@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+#results {
+	position: relative;
+	top: 50px;
+	left: 200px;
+	text-align: center;
+}
+
+#send{
+	width: 100px;
+	height: 40px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+}
+
+td{
+	
+	padding: 0 40px 0 40px;
+}

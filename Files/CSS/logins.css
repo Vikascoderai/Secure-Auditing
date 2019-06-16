@@ -1,0 +1,100 @@
+.selector
+{
+	background: url(../Images/selector.png);
+}			
+.hovering
+{
+	background: url(../Images/selector.png);
+	opacity: 0.5;	
+}						
+.TabMenu
+{
+	position: absolute;
+	top: 150px;
+	left: 1000px;
+	cursor:hand;
+}
+.TabMenu span
+{
+	display: inline-block;
+	height: 77px;				
+	margin: 0px;
+	padding:0px;
+}
+.ContentFrame
+{
+	width: 260px;
+	height:306px;
+	left: 700px;
+	top: 240px;
+	position: relative;
+	overflow:hidden;
+}			
+.ContentFrame .AllTabs
+{
+	position: relative;	
+	left:500px;		
+	width: 1190px;
+	height: 306px;	
+	overflow:hidden;
+}
+.ContentFrame .AllTabs .TabContent
+{
+	width:360px;
+	height: 320px;
+	margin-right:0px;
+	text-align: justify;
+	float:left;
+	overflow:hidden;				
+}
+#login .field
+{
+	width: 151px;
+	background: transparent url('../Images/box1.jpg') no-repeat;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	color : white;
+	
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	font-weight: bold; 
+	font-style: italic; 
+	text-decoration: underline; 
+	letter-spacing: 2px; 
+	font-variant: small-caps; 
+	
+	height:30px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	
+}	
+#login .button
+{
+	border:0;
+	padding:0 30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	text-shadow:#007dab 0 1px 0;
+	background:#424242;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	cursor:pointer;
+}
+#label
+{
+	color:#DFFAF9;
+}
+#label
+{
+	color:#000000;
+}
+#message 
+{
+    white-space: pre;
+}
